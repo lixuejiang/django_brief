@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-　　<title>darren - Impress demo</title>
+　　<title>Django</title>
 　　<meta charset="utf-8" />
 　　<link href="impress/impress-demo.css" rel="stylesheet" />
 </head>
@@ -9,7 +9,7 @@
     <div class="impress-not-supported">
     </div>
 　　<div id="impress">
-	    <div class="step" data-x="-500" data-y="-500">
+	    <div class="step" data-x="-1500" data-y="-1500">
 	        <p>用express写个CURD的restful服务端</p>
 	        <pre>1.npm install express -g</pre>
 			<pre>2.mkdir express-demo</pre>
@@ -17,64 +17,85 @@
 			<pre>4.cd . && npm install</pre>
 			<pre>5.DEBUG=express-demo:* npm start</pre>
 	    </div>
-	    <div class="step" data-x="600" data-y="-400">
+	    <div class="step" data-x="-1500" data-y="-1000">
 	        <img src="http://ggbond.qiniudn.com/2017-02-17%2011:49:45.png" alt="" style="width: 50%">
 	        <img src="http://ggbond.qiniudn.com/2017-02-17%2011:54:52.png" alt="" style="width: 50%">
 	    </div>
-	    <div class="step" data-x="500" data-y="0">
+	    <div class="step" data-x="-1000" data-y="-1500">
 	        <p>let's review the code...</p>
 	    </div>
-	    <div class="step" data-x="500" data-y="-800" data-scale="0.5">
+	    <div class="step" data-x="-1000" data-y="-1000" data-scale="0.5">
 	        <p>如果你需要ORM...</p>
-	        <p>如果你需要后台管理model和data...</p>
+	        <p>如果你需要后台管理model...</p>
 	        <p>code yourself...</p>
 	    </div>
-	    <div class="step" data-x="0" data-y="-800" data-rotate="90">
+	    <div class="step" data-x="-1000" data-y="-500" data-rotate="90">
 	        <p>now we have django</p>
 	        <img src="http://ggbond.qiniudn.com/django-logo.png" alt="">
 	    </div>
-	    <div class="step" data-x="-1200" data-y="0" data-rotate-x="30" data-rotate-y="-30" data-rotate-z="90" data-scale="4">
+	    <div class="step" data-x="-500" data-y="-1000" data-rotate-x="30" data-rotate-y="-30" data-rotate-z="90" data-scale="4">
 	        <pre>1.pip3 install django</pre>
 	        <pre>2.django-admin.py startproject ggbond</pre>
 	        <pre>3.cd ggbond;./manage.py migrate</pre>
 	        <pre>./manage.py runserver</pre>
 	    </div>
-	    <div class="step" data-x="-500" data-y="0">
+	    <div class="step" data-x="-500" data-y="-500">
 	        <img src="http://ggbond.qiniudn.com/2017-02-17%2013:47:06.png" alt="" style="width: 90%">
 	    </div>
-	    <div class="step" data-x="1000" data-y="500" data-scale="2" data-rotate-x="-30" data-rotate-y="30" >
+	    <div class="step" data-x="-500" data-y="0" data-scale="2" data-rotate-x="-30" data-rotate-y="30" >
 	    	<p>amazing...</p>
 	    </div>
-	    <div class="step" data-x="1500" data-y="500" >
+	    <div class="step" data-x="0" data-y="-500" >
 	    	<img src="http://ggbond.qiniudn.com/2017-02-17%2013:55:09.png" alt="">
 	    </div>
-	    <div class="step" data-x="1000" data-y="0" data-rotate="45">
+	    <div class="step" data-x="0" data-y="0" data-rotate="45">
 	        <p>let's review the file tree...</p>
 	        <img src="http://ggbond.qiniudn.com/2017-02-17%2014:05:11.png" alt="">
 	    </div>
-		<div class="step" data-x="1000" data-y="0" data-rotate="45">
+		<div class="step" data-x="500" data-y="0" data-rotate="45">
 	        <pre>manage.py</pre>
 	        <pre>setting.py</pre>
 	        <pre>urls.py</pre>
 	        <pre>db.sqlite3</pre>
 	        <pre>__init__.py</pre>
 	    </div>
-	    <div class="step" data-x="1000" data-y="0" data-rotate="45">
+	    <div class="step" data-x="0" data-y="500" data-rotate="45">
 	        <pre>./manage.py migrate</pre>
 	        <pre>./manage.py runserver</pre>
 	        <pre>./manage.py createsuperuser</pre>
 	        <pre>./manage.py shell</pre>
 	        <pre>./manage.py startapp</pre>
 	    </div>
-	    <div class="step" data-x="1000" data-y="0" data-rotate="45">
+	    <div class="step" data-x="500" data-y="500" data-rotate="45">
 	        <pre>setting.py</pre>
 	        <img src="http://ggbond.qiniudn.com/2017-02-17%2014:41:29.png" alt="">
 	    </div>
-	    <div class="step" data-x="1000" data-y="0" data-rotate="45">
-	        review the code....
+	    <div class="step" data-x="1000" data-y="500" data-rotate="45">
+	        <p>new model</p>
+	        <img src="http://ggbond.qiniudn.com/2017-02-17%2015:02:30.png" alt="">
+	        <pre>./manage.py makemigrations</pre>
+	        <pre>./manage.py migrate</pre>
+	    </div>
+	    <div class="step" data-x="500" data-y="1000" data-rotate="45">
+	        <p>看看后台系统....</p>
+	        <p>admin.site.register(BlogPost, BlogPostAdmin)</p>
+	        <p>添加blog</p>
+	    </div>
+	    <div class="step" data-x="1000" data-y="1000" data-rotate="90">
+	        <p>new view</p>
+	        <pre>view.py</pre>
+	        <pre>templates/archive.html</pre>
+	    </div>
+	    <div class="step" data-x="1000" data-y="1500" data-rotate="135">
+	        <p>new controller/url</p>
+	        <pre>blog/urls</pre>
+	    </div>
+	    <div class="step" data-x="1500" data-y="1000" data-rotate="180" data-scale="3">
+	        <p>Django Q&A</p>
+	        <p>to be continued...</p>
 	    </div>
 	    <!-- darren code -->
-	    <div id="overview" class="step" data-x="-200" data-y="-500" data-scale="3"></div>
+	    <div id="overview" class="step" data-x="-800" data-y="-800" data-scale="3"></div>
 	</div>
 　　<script src="impress/impress.js"></script>
 　　<script>impress().init();</script>
